@@ -1,0 +1,53 @@
+body {
+    font-size: 100%;
+    background-color: black;
+}
+
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-titulo {
+    color: #FFFF00;
+    font-family: "Merriweather", serif;
+}
+
+.cabecalho-menu {
+    margin: 10px;
+    display: flex;
+    gap: 28px;
+}
+
+.cabecalho-menu-item {
+    color: #FFFF00;
+}
+
+/* Alterar a cor de fundo dos botões do acordeão */
+.accordion-button {
+    background-color: #fbff00;
+    /* Cor de fundo dos botões do acordeão */
+    color: #e5ff00;
+    /* Cor do texto dos botões do acordeão */
+}
+
+/* Alterar a cor de fundo dos botões do acordeão quando colapsados */
+.accordion-button.collapsed {
+    background-color: #000000;
+    /* Cor de fundo dos botões do acordeão quando colapsados */
+    color: #fbff00;
+    /* Cor do texto dos botões do acordeão quando colapsados */
+}
+
+/* Alterar a cor de fundo dos corpos do acordeão */
+.accordion-body {
+    background-color: #000000;
+    /* Cor de fundo dos corpos do acordeão */
+    color: #fbff00;
+    /* Cor do texto dos corpos do acordeão */
+}
+
+.fintechpossui {
+    color: #FFFF00;
+    font-family: "Merriweather", serif;
+}
